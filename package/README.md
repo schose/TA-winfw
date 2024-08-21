@@ -40,7 +40,7 @@ sourcetype = winfw
 </pre>
 
 
-Verify the data input and extraction works by searching for
+Verify the data input and extraction works by searching for:
 
 <pre>
 sourcetype=winfw tag=network tag=communicate
