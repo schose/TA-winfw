@@ -57,6 +57,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v3
         with:
+          name: app.tar.gz
           path: output/*.tgz
 
       - name: Archive sha256sum
