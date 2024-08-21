@@ -1,0 +1,54 @@
+{
+    "dependencies": null,
+    "incompatibleApps": null,
+    "info": {
+        "author": [
+            {
+                "company": "Batchworks",
+                "email": "andreas@batchworks.de",
+                "name": "Andreas Roth"
+            }
+        ],
+        "classification": {
+            "categories": [],
+            "developmentStatus": null,
+            "intendedAudience": null
+        },
+        "commonInformationModels": null,
+        "description": "Technology Add-On for Windows Firewall",
+        "id": {
+            "group": null,
+            "name": "TA-winfw",
+            "version": "1.0.1"
+        },
+        "license": {
+            "name": null,
+            "text": null,
+            "uri": null
+        },
+        "privacyPolicy": {
+            "name": null,
+            "text": null,
+            "uri": null
+        },
+        "releaseDate": null,
+        "releaseNotes": {
+            "name": null,
+            "text": "./README.md",
+            "uri": null
+        },
+        "title": "Technology Add-On for Windows Firewall"
+    },
+    "inputGroups": null,
+    "platformRequirements": null,
+    "schemaVersion": "2.0.0",
+    "supportedDeployments": [
+        "_standalone",
+        "_distributed",
+        "_search_head_clustering"
+    ],
+    "targetWorkloads": [
+        "_search_heads"
+    ],
+    "tasks": null
+}
