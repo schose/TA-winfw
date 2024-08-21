@@ -21,6 +21,7 @@ jobs:
       - name: Install Python requirements
         run: |
           pip install -r venv/requirements.txt
+          pip install requests
 
       #
       # Build release and run Appinspect
