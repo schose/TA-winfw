@@ -29,7 +29,7 @@ jobs:
 
       - name: Build the release and submit to Splunk Appinspect vetting
         env:
-          SPLUNK_BASE_LOGIN: ${{ vars.SPLUNK_BASE_LOGIN }}
+          SPLUNK_BASE_LOGIN: ${{ secrets.SPLUNK_BASE_LOGIN }}
           SPLUNK_BASE_PASSWD: ${{ secrets.SPLUNK_BASE_PASSWD }}
         run: |
           cd build; python3 build.py --keep --submitappinspect --userappinspect "$SPLUNK_BASE_LOGIN" --passappinspect "$SPLUNK_BASE_PASSWD"
